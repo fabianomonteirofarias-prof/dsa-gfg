@@ -1,5 +1,5 @@
 # Dado um inteiro positivo a e b, Encontre o Menor Múltiplo Comum de a e b.
-# MMC de dois números é o menores número que pode dividir ambos os números.
+# MMC de dois números é o menor número que pode dividir ambos os números.
 
 def naive_approach(a: int, b: int) -> int: # naive approach
     aux1 = max(a, b) # greater
