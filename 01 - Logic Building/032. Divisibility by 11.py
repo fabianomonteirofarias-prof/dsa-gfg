@@ -7,7 +7,7 @@
 def naive_approach(s: str) -> bool:
     return int(s) % 11 == 0
 
-def expected_apprach(s: str) -> bool:
+def expected_approach(s: str) -> bool:
     sum_dig_even = 0
     sum_dig_odd = 0
 
